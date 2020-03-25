@@ -17,6 +17,7 @@ import androidx.lifecycle.OnLifecycleEvent;
 public class MyChronometer extends Chronometer implements LifecycleObserver {
 
     private long elapsedTime;
+    // TODO: 将elapsedTime和ViewModel结合起来
 
     public MyChronometer(Context context, AttributeSet attrs) {
         super(context, attrs);
